@@ -1,0 +1,116 @@
+/*Header */
+
+.nav_container>ul {
+    padding: 12px;
+    background: linear-gradient(45deg, rgb(110, 183, 252), rgb(106, 106, 231));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+
+}
+
+ul {
+    list-style: none;
+}
+
+ul>div {
+    display: flex;
+    gap: 12px;
+}
+
+
+.imagenUsuario {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imagenUsuario>img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.salir {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: rgb(240, 79, 79);
+    padding: 0px 12px;
+    border-radius: 12px;
+}
+
+
+
+/* Para  los cards del contacto  */
+
+
+
+.contenedor_card {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card_contacto {
+    max-width: 300px !important;
+    cursor: pointer;    
+}
+
+.card_contacto img {
+    height: 150px;
+    object-fit: cover;
+}
+
+.Acciones_Contacto{
+    display: flex;    
+    background: red ;
+}
+
+/* FORMULACION DE CONTACTO */
+.formulario_contacto{
+    display:grid;
+    place-content:center
+}
+
+/*Perfil */
+
+.perfil{
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+   
+}
+.perfil> div {
+    box-shadow: 1px 1px 5px rgb(0, 0, 0) ;
+}
+
+.perfil img{
+    height: 100%;    
+    object-fit: cover;
+}
+
+.SalirPerfil{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+/*Listas de usuarios */
+.container_table{
+    margin: 12px !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_table > table {
+    max-width: 800px;
+}
+.accion{
+
+    width: 120px ;
+}
+.accion > form {
+  display: inline;
+
+}
