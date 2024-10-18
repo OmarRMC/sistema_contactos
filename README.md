@@ -32,5 +32,11 @@ Sigue estos pasos para instalar el proyecto en tu máquina local:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/usuario/proyecto-sistema-contactos.git
-cd proyecto-sistema-contactos
+git clone https://github.com/OmarRMC/sistema_contactos.git
+cd sistema_contactos
+
+# Instalar dependencias
+El proyecto utiliza Composer para gestionar las dependencias de PHP. Ejecuta el siguiente comando en el directorio raíz del proyecto para instalar las dependencias:
+```bash
+composer install
+Las dependencias incluidas en este proyecto son:
